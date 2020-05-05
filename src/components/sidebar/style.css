@@ -1,0 +1,58 @@
+.sidebarContainer{ 
+       width:27%;
+}
+.classHeader{
+text-transform: uppercase;
+letter-spacing: 2px;
+text-align:center;
+padding:10px 0;
+font-size: 15px;
+box-sizing: border-box;
+color:#565673;
+}
+.profileImageContainer{
+    width:100%;
+    padding:10px;
+    box-sizing: border-box;
+}
+.profileImageContainer img{
+    max-width:100%;
+    max-height:100%;
+    margin:10px 0;
+}
+.personalBio{
+    font-size:14px;
+    color: #565656;
+    font-weight: 300;
+}
+.recentPosts h3{
+    color:#6c6c6c;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    margin:0;
+}
+.recentPosts span{
+    font-size: 10px;
+    font-weight: 400;
+}
+.recentpost{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+.recentPosts{
+    padding:20px 0;
+}
+.my-icons{
+    width:20%;
+    display: flex;
+    justify-content: space-between;
+}
+.my-icons span{
+    color: #565673!important;
+    padding:2px 10px;
+}
+.my-icons span:hover{
+    color:#5f9ea0!important;
+    cursor:pointer;
+}

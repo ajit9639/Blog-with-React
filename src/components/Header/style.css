@@ -1,0 +1,33 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin:10px 0;
+}
+
+.header-menu a{
+display: inline-block;
+margin:0 10px; 
+text-decoration: none;
+color:#565673;
+font-size: 20px;
+font-weight: bolder!important;
+letter-spacing: 1.2px;;
+}
+.header-menu a:hover{
+    color:#5f9ea0;
+}
+.my-icons{
+    width:20%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right:50px;
+}
+.my-icons span{
+    color: #565673!important;
+    padding:2px 5px;
+}
+.my-icons span:hover{
+    color:#5f9ea0!important;
+    cursor:pointer;
+}

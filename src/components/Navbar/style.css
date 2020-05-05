@@ -1,0 +1,45 @@
+.navbar{
+    padding:10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    margin: 0 10px;
+}
+.navbar ul{
+    margin:0;
+    padding:0;
+}
+.navbar ul li{
+    list-style-type: none;
+   display:inline-block;
+}
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color:#565673;
+    padding:0 10px;
+}
+.searchInput{
+    border:0;
+    width:0;
+    transition:width 0.2s ease-in;
+    
+    font-size: 20px;
+}
+.searchInput::placeholder{
+    color:red;
+    font-size: 25px;}
+.searchInput:focus{
+    outline:none;
+}
+.searchInput.active{
+    width:150px;
+}
+.searchIcon{
+    cursor: pointer;
+}
